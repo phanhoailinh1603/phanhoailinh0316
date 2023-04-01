@@ -25,8 +25,29 @@ $(function()
 		name: "Nếu Anh Đi (Cover)",
 		url: "Musics/NeuAnhDi.mp3",
 		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-	}];
-	
+	}, {
+
+
+		artist: "Bùi Trường Linh",
+		name: "Yêu Một Người Có Ước Mơ",
+		url: "Musics/YeuMotNguoiCoUocMo.mp3",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	}, {
+        artist: "Phạm Nguyên Ngọc",
+		name: "Mặt Mộc",
+		url: "Musics/MatMoc.mp3",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    },
+    {
+        artist: "Bùi Trường Linh",
+		name: "Đường Tôi Chở Em Về",
+		url: "Musics/DuongToiChoEmVe.mp3",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg" 
+    }
+
+
+];
+
 	function shuffle(a) {
 		var j, x, i;
 		for (i = a.length - 1; i > 0; i--) {
@@ -37,6 +58,7 @@ $(function()
 		}
 		return a;
 	}
+
 	songs = shuffle(songs);
 
     function playPause()
@@ -63,6 +85,7 @@ $(function()
         },300);
     }
 
+   
     	
 	function showHover(event)
 	{
